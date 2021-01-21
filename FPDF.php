@@ -6,10 +6,11 @@
  * Date:    2019-12-07                                                          *
  * Author:  Olivier PLATHEY                                                     *
  *******************************************************************************/
+namespace soft\components\pdf;
 
 define('FPDF_VERSION', '1.82');
 
-class FPDF extends \yii\base\Component
+class FPDF
 {
     protected $page;               // current page number
     protected $n;                  // current object number
