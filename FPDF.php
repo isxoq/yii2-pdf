@@ -10,6 +10,7 @@ namespace soft\components\pdf;
 
 define('FPDF_VERSION', '1.82');
 
+
 class FPDF
 {
     protected $page;               // current page number
